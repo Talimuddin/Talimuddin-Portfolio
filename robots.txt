@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://talimuddin.github.io/Talimuddin-Portfolio/sitemap.xml
