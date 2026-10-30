@@ -31,6 +31,17 @@
     menuToggle?.setAttribute('aria-expanded', 'false');
   }));
 
+  const closeMenu = () => {
+    navLinks.classList.remove('open');
+    menuToggle?.setAttribute('aria-expanded', 'false');
+    menuToggle?.setAttribute('aria-label', 'Open navigation menu');
+  };
+  document.addEventListener('click', e => {
+    if (navLinks.classList.contains('open') && !navLinks.contains(e.target) && !menuToggle.contains(e.target)) closeMenu();
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
+  window.addEventListener('resize', () => { if (window.innerWidth > 760) closeMenu(); });
+
   // Typing effect
   const typingTarget = document.getElementById('typingText');
   const roles = ['Java Full Stack Developer', 'Software Developer', 'Java Developer'];
