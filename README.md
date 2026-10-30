@@ -10,7 +10,7 @@ I enjoy solving problems, learning new technologies, and turning ideas into func
 
 ## 💻 Technical Skills
 
-- **Programming Languages:** Core Java, JavaScript
+- **Programming Languages:** Java, JavaScript
 - **Frontend:** HTML, CSS, Bootstrap
 - **Backend:** Java, Spring Boot, REST APIs
 - **Database:** MySQL
@@ -42,7 +42,7 @@ A Java-based Tic Tac Toe game demonstrating object-oriented programming, player 
 - Designed game logic to manage turns and determine winning conditions.
 - Used separate classes to organize game components.
 
-**Technologies:** Core Java, OOP
+**Technologies:** Java, OOP
 
 [View Project on GitHub](https://github.com/Talimuddin/Java-Tic-Tac-Toe)
 
@@ -52,7 +52,7 @@ A Java-based Tic Tac Toe game demonstrating object-oriented programming, player 
 
 **Java Full Stack Developer Training – TAP Academy**
 
-Developing practical knowledge of Java Full Stack Development, including Core Java, OOP, DSA, MySQL, HTML, CSS, JavaScript, Spring, and Hibernate.
+Developing practical knowledge of Java Full Stack Development, including Java, OOP, DSA, MySQL, HTML, CSS, JavaScript, Spring, and Hibernate.
 
 **Software Engineering Intern – SPRINT**
 
